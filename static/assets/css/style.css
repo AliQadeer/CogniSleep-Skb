@@ -1650,6 +1650,7 @@ section.forward_sec {
 .forward_login_process h2 {
   text-align: center;
   font-size: 25px !important;
+  text-transform: none;
 }
 
 .forward_login_process h2:after {
@@ -5104,6 +5105,10 @@ body:not(.logged-in) .fstrip {
   display: flex;
 }
 
+textarea{
+  resize: none;
+}
+
 .locker-img .locker-form textarea {
   border: 1px solid #fff;
   background: transparent;
@@ -5165,8 +5170,6 @@ ul.nav.nav-tabs li a {
 }
 
 .fileBtn {
-  border: 2px dashed #0f9648;
-  padding: 20px 10px;
   border-radius: 10px;
 }
 .gap-15 {
@@ -6600,6 +6603,7 @@ tr.patientComment.show {
 
   .addSleepDairy .days-menu ul li {
     width: 30%;
+    /* margin-bottom: 3px; */
   }
 
   .addSleepDairy .days-menu ul {
