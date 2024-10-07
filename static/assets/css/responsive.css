@@ -1,3 +1,9 @@
+@media(max-width:430px) {
+  .sleep_diary form #id_minutes_fall_asleep{
+    text-align: center !important;
+   }
+}
+    
     @media(max-width: 760px) {
     .nextprevbtn a {
     background: #00a115;
@@ -265,6 +271,7 @@
         color: #000;
         padding-top: 9px;
       }
+
 
       /* sleep diary table  */
 
@@ -675,8 +682,9 @@ body.logged-in.dark .mega-menu-box {
 body.logged-in.dark div#navbarSupportedContent {
   background-color: #f3f3f3cf;
   color: #000 !important;
-  margin-top: 28px;
-  padding: 10px;
+  margin-top: 38px;
+  padding: 10px 0px;
+  margin-bottom: -30px;
   border-radius: 7px;
 }
 
@@ -862,6 +870,7 @@ header button.navbar-toggler {
 
 .form-group {
     text-align: left;
+    margin-bottom: -10px;
 }
 
 /* about us  */
@@ -970,7 +979,8 @@ span.asteriskField {
 .card-header span {
   height: 20px;
   width: 20px;
-  right: -15px;
+  right: -10px;
+  top: -4px;
   background-color: transparent;
 }
 
@@ -999,7 +1009,7 @@ div#accordion {
 }
 
 .parallax-sec {
-  height: 440px;
+  height:100vh;
   width: 100%;
   background-size: cover;
   background-position: center;

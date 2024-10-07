@@ -2912,14 +2912,10 @@ a.tablinks.active {
   border-radius: 4px;
   border: 1px solid #e2e2e2;
   margin-bottom: 20px;
+  text-align: center;
+
 }
 
-/*span#time_sleep_guid_msg {
-  color: red;
-  float: left;
-  width: 100%;
-  margin-top: -15px;
-}*/
 span#time_sleep_guid_msg {
   color: red;
   float: left;
@@ -3919,14 +3915,13 @@ div#responsivez2 {
   }
   .viewsleepdiary .weeks {
     margin-bottom: 15px;
+    margin-left: 13px;
   }
   .viewsleepdiary .weeks ul li {
     width: 25%;
     margin: 0 !important;
   }
-  .viewsleepdiary .table {
-  }
-
+ 
   .viewsleepdiary .table td,
   .viewsleepdiary .table th {
     font-size: 11px;
@@ -3989,7 +3984,7 @@ div#responsivez2 {
   }
 
   .accordion > .card .card-header {
-    padding: 0;
+    padding: 0px;
   }
 
   .card-body p {
@@ -4000,6 +3995,7 @@ div#responsivez2 {
 } */
   .forward_sec h2 {
     font-size: 24px !important;
+    margin-bottom: 10px !important;
   }
   ul.nav.navbar-nav {
     margin-top: 10px;
@@ -4243,8 +4239,10 @@ div#responsivez2 {
   div#navbarSupportedContent {
     float: right;
     width: 100%;
-    margin-top: 0;
-    border-top: 1px solid #eee;
+    margin-top: 0px;
+    border: 1px solid #eee;
+    padding: 10px 0px;
+    border-radius: 15px;
   }
   button.navbar-toggler {
     position: absolute;
